@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: rgb(35, 115, 185);
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+/* navigation **************************************************************************************** */
+ header{
+     background-color: rgb(248, 252, 255);
+    }
+
+.header{
+    line-height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header ul{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.header ul li a{
+    text-decoration: none;
+    color: rgb(126, 126, 126);
+    font-size: 16px;
+}
+.header ul li a:hover{
+    color: rgb(46, 46, 46);
+}
+
+/* showcase *********************************************************************************************************** */
+.showcase{
+    background: url('../image/Homepage-BannerBG-1030x579.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.text{
+    padding: 150px 100px;
+    text-align: center;
+}
+.text h1{
+    font-size: 45px;
+}
+.text p{
+    font-size: 20px;
+}
+.text button{
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 5px 30px;
+    border:none;
+    border-radius: 8px;
+    background-color: rgb(37, 191, 211);
+    color: white;
+}
+.text button:hover{
+    background-color: rgb(71, 221, 226);
+}
+
+/* our service ***************************************************************************************** */
+.our-service{
+    display: flex;
+    margin-top: 60px;
+}
+.service{
+    width: 500px;
+    margin-right: 40px;
+}
+.service h2{
+    font-size: 36px;
+    padding-bottom: 10px;
+}
+.support{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content{
+    width: 300px;
+}
+.content h4{
+    font-size: 22px;
+    padding: 15px 0px;
+}
+.content p{
+    padding-bottom: 20px;
+}
+
+/* case ***************************************************************************************** */
+.case{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.case-box{
+    display: flex;
+    width: 31.5%;
+    background-color: rgb(103, 177, 238);
+    color: white;
+}
+.case-text{
+    padding: 40px;
+}
+.case-text h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.case-text p{
+    font-size: 18px;
+}
+.case-text button{
+    font-size: 18px;
+    color: white;
+    padding: 4px 15px;
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: none;
+}
+.case-text button:hover{
+    color: black;
+    background-color: white;
+}
+
+/* article ************************************************************************************* */
+article{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+}
+.article-text h4{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.article-text a p{
+    padding-top: 20px;
+}
+
+/* doctor ********************************************************************************** */
+.doctor{
+    width: 95%;
+    margin: auto;
+}
+.doctor h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.doctor-profile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.profile{
+    box-shadow: 0px 0px 1px;
+    width: 23%;
+}
+.profile-content{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+.profile-content img{
+    width: 95%;
+    align-self: center;
+}
+.profile-content h4{
+    padding-left: 10px;
+    padding-top: 30px;
+    font-size: 25px;
+}
+.profile-content h6{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+}
+.profile:hover{
+    margin-top: 10px;
+}
+.pfl-icon{
+    padding-top: 20px;
+    display: flex;
+}
+.prl-icon img{
+    height: 25px;
+    width: auto;
+}
+.pfl-icon a{
+    padding: 10px;    
+}
+
+/* alex ********************************************************************************************** */
+.alex-wrap{
+    background-color: rgb(235, 235, 235);
+}
+.alex{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 75px 0px;
+}
+.alex-box{
+    width: 32%;    
+}
+.alex-text{
+    text-align: center;
+    font-size: 35px;
+}
+
+/* about ******************************************************************************************** */
+.about-wrap{
+    background-color: rgb(91, 95, 105);
+}
+.about{
+    color: white;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.about-box{
+    margin: 80px 0px;
+    width: 50%;
+}
+.about-text h4{
+    font-size: 35px;
+    padding-right: 150px;
+}
+.about-text a{
+    text-align: right;
+    color: rgb(100, 189, 240);
+    line-height: 100px;
+}
+
+/* contact ************************************************************************************ */
+.contact{
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.contact-text form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-box-right{
+    padding-right: 150px;
+}
+.contact-text h5{
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.contact-text h3{
+    font-size: 30px;
+}
+.inner{
+    padding: 40px 0px 0px 30px;
+    display: flex;
+    align-items: center;
+
+}
+.inner p{
+    padding-left: 15px;
+}
+.contact-text input, .contact-text button{
+    width: 600px;
+    margin: 4px 0px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px rgba(173, 175, 177, .5);
+}
+.contact-text button{
+    width: 640px;
+    background-color: rgb(83, 168, 95);
+    color: white;
+}
+.message{
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* footer ******************************************************************************** */
+
+footer{
+    background-color: rgb(88, 110, 156);
+    color: white;
+}
+footer a{
+    color: white;
+}
+.top{
+    padding: 60px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.top-box{
+    width: 33%;
+}
+.top-box p, .top-box ul{
+    font-size: 20px;
+    padding-top: 30px;
+}
+.top-text h4{
+    font-size: 30px;
+}
+.top-text{
+    padding: 0px 15px;
+}
+.top-text ul{
+    padding-left: 30px;
+}
+.link{
+    padding-top: 20px;
+    display: flex;
+}
+.image{
+    width: 60px;
+    height: 60px;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+}
+.fb{
+    background-color: rgb(104, 182, 218);    
+}
+.go{
+    background-color: rgb(218, 82, 48);    
+}
+.li{
+    background-color: rgb(68, 92, 168);    
+}
+.tw{
+    background-color: rgb(104, 182, 218);    
+}
+.image:hover{
+    opacity: .8;
+}
+.image img{
+    width: 35px;
+    height: auto;
+}
+
+.bottom{
+    padding: 20px 0px;
+}
+.bottom p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 36px;
+}
