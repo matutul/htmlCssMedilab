@@ -288,6 +288,9 @@ article{
     background-color: rgb(83, 168, 95);
     color: white;
 }
+.contact-text button:hover{
+    background-color: lightgreen;
+}
 .message{
     height: 80px;
     display: flex;
